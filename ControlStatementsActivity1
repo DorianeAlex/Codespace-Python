@@ -1,0 +1,23 @@
+# Write a Python program that accepts three numbers and prints "All numbers are equal" if all three numbers are equal,
+# "All numbers are different" if all three numbers are different and "Neither all are equal nor different" otherwise.
+# Test Data:
+# Input first number: 2
+# Input second number: 3
+# Input third number: 4
+# Expected Output : All numbers are different.
+
+# Take input from the user for the first number
+first_number = int(input("Input the first number: "))
+
+# Take input from the user for the second number
+second_number = int(input("Input the second number: "))
+
+# Take input from the user for the third number
+third_number = int(input("Input the second number: "))
+# Writing a statement to verity conditions and printing the accurate sentence
+if first_number == second_number == third_number:  # if statement with if keyword to check if all numbers are the same
+    print("All numbers are equal")
+elif first_number != second_number != third_number:  # elif statement to verify second condition if first one is false
+    print("All numbers are different")
+else:  # else statement if neither if or elif are true
+    print("Neither all are equal nor different")
