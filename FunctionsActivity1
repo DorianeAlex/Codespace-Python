@@ -1,0 +1,27 @@
+# Write 2 Python functions to:
+# show the list content.
+# find the max value in the list.
+
+# creating a list from the instructions
+sample_list = [10, 2, 3, 4, 7]
+
+
+# Function to show the list content
+def values(sample_list):
+    print(f"The content of the list is: {sample_list}")
+
+
+# Function to find the max value in the list
+def find_max_value(sample_list):
+    # using the max() function, display the maximum value form the list
+    maxvalue = max(sample_list)
+    print(f"The max value in the list: {maxvalue}")
+
+
+# calling the functions
+values(sample_list)
+find_max_value(sample_list)
+
+# expected Output :
+# The content of the list is: [10, 2, 3, 4, 7]
+# The max value in the list: 10
