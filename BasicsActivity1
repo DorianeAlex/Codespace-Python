@@ -1,0 +1,11 @@
+# Defining the expressions by creating different variables and assigning a value
+ex_a = -5 + 8 * 6
+ex_b = (55 + 9) % 9
+ex_c = 20 + -3 * 5 / 8
+ex_d = 5 + 15 / 3 * 2 - 8 % 3
+
+# Printing the results of the expressions
+print("a =", ex_a)
+print("b =", ex_b)
+print("c =", ex_c)
+print("d =", ex_d)
