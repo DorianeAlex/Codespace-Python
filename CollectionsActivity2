@@ -1,0 +1,15 @@
+# Write a Python program to calculate the average value of a list elements.
+# Sample List:
+# [20, 30, 25, 35, -16, 60, -100]
+# creating a list from the instructions
+numbers = [20, 30, 25, 35, -16, 60, -100]
+# determining the numbers of items in the list by using len()
+length = len(numbers)
+# using the sum() function to return the number from adding the numbers in the list
+addedNumbers = sum(numbers)
+# dividing the total from the sum by the number of items in the list and rounding the number to one decimal with round()
+total = round(addedNumbers / length, 1)
+# printing the result as the expected output
+print(f"Average value of the list elements is {total}.")
+# Expected output:
+# Average value of the list elements is : 7.7.
