@@ -1,0 +1,29 @@
+# Write a Python function that takes a number as a parameter and check the number is prime or not.
+def function_prime(n):
+    # Check if n < 2: Numbers less than 2 are not prime.
+    if n < 2:
+        print(f"{n} is not a prime number")
+    # Check if n % 2 == 0: Even numbers greater than 2 are not prime.
+    elif n % 2 == 0:
+        print(f"{n} is not a prime number")
+    # Check if n == 2: 2 is the only even prime number.
+    elif n == 2:
+        print(f"{n} is a prime number")
+
+    else:
+        # Loop through odd numbers starting from 3 up to the square root of n
+        # If any of these numbers divide n without a remainder, then n is not a prime number.
+        # Starting the sequence at 3 and converts the square root of n to an integer (removing any decimal part)
+        # Ensuring we include the square root value itself in the range 
+        # The loop stopping point is not included in the range, and we want to check up to the square root of n
+        # Testing all odd numbers by increment by 2
+        for i in range(3, int(n ** 0.5) + 1, 2):
+            if n % i == 0:
+                print(f"{n} is not a prime number")
+                return
+        print(f"{n} is a prime number")
+
+# testing the function
+
+
+function_prime(29)
