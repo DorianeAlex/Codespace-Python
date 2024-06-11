@@ -1,0 +1,24 @@
+# Write a Python function to calculate the factorial of a number (a non-negative integer n ). The function accepts the number as an argument.
+# The factorial of a number is the product of all the integers from 1 to that number and it is represented by n!
+# The factorial is not defined for negative numbers, and the factorial of zero is one, 0! = 1.
+# import math Library
+import math
+
+
+# create function where n represents the number to be factorised
+def function_factorial(n):
+    # condition to check if number is non-negative
+    # if negative, it will be rejected
+    if n < 0:
+        print("Only positive number accepted")
+    # if equal to 0, result is 1
+    elif n == 0:
+        print(1)
+    # if other number, function will go on with formula which will hits all the integers from 1 to that number
+    else:
+        # return factorial of a number
+        # the function will exit with total value
+        print(math.factorial(n))
+        
+# calling the function
+function_factorial(6)
