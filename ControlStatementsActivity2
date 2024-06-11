@@ -1,0 +1,22 @@
+# Write a Python program that accepts three numbers from the user and prints "Increasing order" if the numbers are in
+# the increasing order, "Decreasing order" if the numbers are in the decreasing order
+# and "Neither increasing nor decreasing order" otherwise.
+# Input first number: 1524 Input second number: 2345 Input third number: 3321
+# Expected Output : Increasing order.
+
+# Take input from the user for the first number
+first_number = int(input("Input the first number: "))
+# Take input from the user for the second number
+second_number = int(input("Input the second number: "))
+# Take input from the user for the third number
+third_number = int(input("Input the second number: "))
+# Writing a statement to verity conditions and printing the accurate sentence
+# if statement with if keyword to check if all numbers are in ascending order
+if first_number < second_number < third_number:
+    print("Increasing number")
+# elif statement if first statement returns false and verify if numbers are in decreasing order
+elif first_number > second_number > third_number:
+    print("Decreasing number")
+# else statement if neither if nor elif are true
+else:
+    print("Neither increasing nor decreasing")
