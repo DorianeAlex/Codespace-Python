@@ -1,0 +1,16 @@
+# Write a Python program to find the maximum and minimum value of a list.
+# Sample List:
+# [25, 14, 56, 15, 36, 56, 77, 18, 29, 49]
+# creating a list from the instructions
+numbers = [25, 14, 56, 15, 36, 56, 77, 18, 29, 49]
+# display the original list
+print(f"Original List: {numbers}")
+# using the min() function, display the minimum value from the list
+print(f"Minimum value for the above list = {min(numbers)}")
+# using the max() function, display the maximum value form the list
+print(f"Maximum value for the above list = {max(numbers)}")
+
+# Expected output:
+# Original List: [25, 14, 56, 15, 36, 56, 77, 18, 29, 49]
+# Maximum value for the above list = 77
+# Minimum value for the above list = 14
