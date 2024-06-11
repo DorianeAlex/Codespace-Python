@@ -1,0 +1,12 @@
+# Take input from the user for the first number
+first_number = int(input("Input the first number: "))
+
+# Take input from the user for the second number
+second_number = int(input("Input the second number: "))
+
+# Perform division
+result = first_number / second_number
+
+# Print the result, to combine strings and numbers by using f-strings and curly brackets as placeholders for
+# variables and other operations.
+print(f"The division of the first number and the second number is: {result}")
