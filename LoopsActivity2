@@ -1,0 +1,15 @@
+# Write a Python program to create the multiplication table (from 1 to 10) of a number.
+# Expected Output:
+# Input a number: 6
+
+# ask the user to input a number
+number = int(input("Choose a number"))
+# print a line to introduce the purpose of the exercise
+print(f"Here is the multiplication table of {number}")
+# starting a while loop to start from 0 and finish by 10
+i = 0
+while i <= 10:
+    # print the result with operation needed
+    print(f"{number} x {i} = {number * i}")
+    # increasing by one each time the while loop is run and stopping when reaching 10
+    i += 1
