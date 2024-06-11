@@ -1,0 +1,11 @@
+# Write a Python program to sum values of a list.
+# Sample List:
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# creating a list from the instructions
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# using the sum() function to return the number from adding the numbers in the list
+total = sum(numbers)
+# printing the result as the expected output
+print(f"The sum is {total}.")
+# Expected output:
+# The sum is 55.
