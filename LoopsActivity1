@@ -1,0 +1,18 @@
+# Write a Python program to get the Fibonacci series between 0 and 50.
+# The Fibonacci Sequence is the series of numbers : 0, 1, 1, 2, 3, 5, 8, 13, 21, ....
+
+# Initialize the first two Fibonacci numbers
+a = 0
+b = 1
+
+# Print the initial number
+print("The Fibonacci Sequence is the series of numbers: ")
+
+# writing a while loop to generate the Fibonacci series
+# putting a limit to the result, the loop stops if the result is above 50
+while a <= 50:
+    # the end command allow to display the result of numbers on the same line
+    print(a, end=', ')
+    # every next number is found by adding up the two numbers before it.
+    # by writing the line at the end, it allows to print the result starting by 0 if not it would start by 1
+    a, b = b, a + b
